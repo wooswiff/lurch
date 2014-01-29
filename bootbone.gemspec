@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.description = "A suite of generators used for setting up a backbone app in rails for both development and production."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.require_path = 'lib'
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.16"

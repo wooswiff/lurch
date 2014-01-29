@@ -4,6 +4,14 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+# require File.expand_path("../dummy/config/environment.rb",  __FILE__)
+# require "rails/test_help"
+
+require 'rails/all'
+require "rspec/rails"
+require 'bootbone'
+require "generator_spec"
+
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
@@ -18,8 +26,6 @@ end
 
 ENV["RAILS_ENV"] = "test"
 
-require File.expand_path("../dummy/config/environment.rb",  __FILE__)
-require "rails/test_help"
-require 'bootbone'
+
 
 Rails.backtrace_cleaner.remove_silencers!
