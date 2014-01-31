@@ -24,3 +24,9 @@ Create your initial directory structure of your app:
 ```
 rails generate bootbone:install <my_bb_app>
 ```
+
+## Tests
+
+```
+rake spec
+```
