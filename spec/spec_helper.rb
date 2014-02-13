@@ -9,7 +9,7 @@
 
 require 'rails/all'
 require "rspec/rails"
-require 'bootbone'
+require 'lurch'
 require "generator_spec"
 
 RSpec.configure do |config|

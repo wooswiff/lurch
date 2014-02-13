@@ -2,7 +2,7 @@ Description:
     Create the base directory structure of a backbone app
 
 Example:
-    rails generate bootbone:install app_name
+    rails generate lurch:install app_name
 
     This will create:
       app/assets/javascripts/app_name/

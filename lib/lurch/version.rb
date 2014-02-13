@@ -1,3 +1,3 @@
-module Bootbone
+module Lurch
   VERSION = "0.0.1"
 end

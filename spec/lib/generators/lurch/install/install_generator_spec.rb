@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'generators/bootbone/install/install_generator'
+require 'generators/lurch/install/install_generator'
 
-describe Bootbone::Generators::InstallGenerator, "using custom matcher", type: :generator do
+describe Lurch::Generators::InstallGenerator, "using custom matcher", type: :generator do
   destination File.expand_path("../../tmp", __FILE__)
 
   before do

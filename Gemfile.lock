@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bootbone (0.0.1)
+    lurch (0.0.1)
       rails (~> 3.2.16)
 
 GEM
@@ -138,11 +138,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootbone!
   cucumber-rails
   database_cleaner
   generator_spec
   jquery-rails
+  lurch!
   rspec-rails
   simplecov
   sqlite3

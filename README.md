@@ -1,7 +1,9 @@
-bootbone
+lurch
 ========
 
-Bootbone is tool to help "bootstrap your backbone" app in a rails project.  The included set of generators will set up a simple backbone file structure as well as put the hooks in place for using require.js in both development and production.
+Lurch is tool to help bootstrap your javascript application in a rails project.  The included set of generators will set up a simple js app file structure as well as put the hooks in place for using require.js in both development and production.
+
+Lurch is meant to be extended by javascript frameworks and comes with a plugin for bootstrapping a backbone.js app.
 
 This is a new project still in early development.  Updates coming soon...
 
@@ -9,7 +11,7 @@ This is a new project still in early development.  Updates coming soon...
 
 Add the gem to your Gemfile:
 ```ruby
-gem 'bootbone', git: 'git://github.com/wooswiff/bootbone.git'
+gem 'lurch', git: 'git://github.com/wooswiff/lurch.git'
 ```
 
 Download and install:
@@ -22,7 +24,7 @@ bundle install
 
 Create your initial directory structure of your app:
 ```
-rails generate bootbone:install <my_bb_app>
+rails generate lurch:install <my_js_app>
 ```
 
 ## Tests

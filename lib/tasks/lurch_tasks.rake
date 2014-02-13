@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :bootbone do
+# task :lurch do
 #   # Task goes here
 # end

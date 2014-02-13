@@ -1,6 +1,6 @@
 require 'rails/generators'
 
-module Bootbone
+module Lurch
   module Generators
     class InstallGenerator < Rails::Generators::NamedBase
       source_root File.expand_path('../templates', __FILE__)

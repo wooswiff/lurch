@@ -29,7 +29,7 @@ rescue Bundler::BundlerError => e
 end
 
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../../lib')
-require 'bootbone'
+require 'lurch'
 
 require 'rspec/expectations'
 
